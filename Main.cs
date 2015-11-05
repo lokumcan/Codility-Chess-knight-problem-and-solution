@@ -1,39 +1,30 @@
 //------------------------------------------------------------------------------
+//
 // Written by Shbli
 //
 // Contact and details: shbli.com
 //
 //------------------------------------------------------------------------------
 
+/**
 
-// The knight is a piece in the game of chess that in one turn can move two
-// squares horizontally and one square vertically or two squares vertically
-// and one square horizontally.
+The knight is a piece in the game of chess that in one turn can move two squares horizontally and one square vertically or two squares vertically and one square horizontally.
 
-// An infinite chessboard is given. All of its squares are empty except for
-// the square with coordinates (0, 0) where a knight stands.
+An infinite chessboard is given. All of its squares are empty except for the square with coordinates (0, 0) where a knight stands.
 
-// Write a function
-//   def min_count_of_knight_moves(A,B)
-// that given two numbers A and B returns the minimal number of turns required
-// for the knight to move from square (0, 0) to square (A, B). The function
-// should return -1 if the knight cannot reach given square. The function
-// should return −2 if the required number of turns exceeds 100,000,000.
+Write a function def min_count_of_knight_moves(A,B) that given two numbers A and B returns the minimal number of turns required for the knight to move from square (0, 0) to square (A, B). The function should return -1 if the knight cannot reach given square. The function should return −2 if the required number of turns exceeds 100,000,000.
 
-// Assume that:
-//   A is an integer within the range [-100,000,000..100,000,000];
-//   B is an integer within the range [-100,000,000..100,000,000].
+Assume that:
+A is an integer within the range [-100,000,000..100,000,000];
+B is an integer within the range [-100,000,000..100,000,000].
 
-// For example, given A = 4 and B = 5 the function should return 3 because the
-// knight requires 3 turns to move from square (0, 0) to square (4, 5): in the
-// first turn the knight moves from square (0, 0) to square (2, 1), in the
-// second turn the knight moves from square (2, 1) to square (3, 3), in the
-// third turn the knight moves from square (3, 3) to square (4, 5).
+For example, given A = 4 and B = 5 the function should return 3 because the knight requires 3 turns to move from square (0, 0) to square (4, 5): in the first turn the knight moves from square (0, 0) to square (2, 1), in the second turn the knight moves from square (2, 1) to square (3, 3), in the third turn the knight moves from square (3, 3) to square (4, 5).
 
-// Complexity:
-//   expected worst-case time complexity is O(1);
-//   expected worst-case space complexity is O(1).
+Complexity:
+expected worst-case time complexity is O(1);
+expected worst-case space complexity is O(1).
 
+**/
 using System;
 using System.Collections.Generic;
 using System.IO;
