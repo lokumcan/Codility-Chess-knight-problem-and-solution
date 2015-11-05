@@ -26,9 +26,6 @@ expected worst-case space complexity is O(1).
 
 **/
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 class Solution {
 
@@ -150,8 +147,8 @@ class Solution {
 		Console.WriteLine("***");
 
 		Solution s = new Solution();
-		int A = 97;
-		int B = 78;
+		int A = 45;
+		int B = 63;
 		Console.WriteLine( "Sol is " + s.solution(A,B) );
 
 		Console.WriteLine("***");
